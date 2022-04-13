@@ -81,7 +81,7 @@ $(document).ready(function () {
         let chart = new CanvasJS.Chart("chartContainer", {
             animationEnabled: true,
             title: {
-                text: `Hola soy ${especie}`
+                text: `Estadisticas de ${especie}`
             },
             data: [{
                 type: "pie",
