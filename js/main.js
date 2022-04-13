@@ -51,7 +51,7 @@ $(document).ready(function () {
         const data = response;
 
         const infoPoke = {
-          imagen: data.sprites.other.dream_world["front_default"],
+          imagen: data.sprites.other.dream_world["front_default"] !== null ? data.sprites.other.dream_world["front_default"] : data.sprites.other["official-artwork"].front_default ,
           especie: data.species["name"],
           dataChart: data.stats
         };
