@@ -22,7 +22,7 @@ $(document).ready(function () {
   buscar.change((e) => {
     e.preventDefault();
     let id = inputFindID.val();
-    /* console.log('Retorna el id', id) */
+     console.log('Retorna el id', id) 
 
     if (id.length != 0 && id > 0) {
       buscarPokemon(id);
